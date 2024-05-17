@@ -1,14 +1,22 @@
 ---
-# HideCommands config file:
+# mode can be either "whitelist" or "blacklist"
+mode: "blacklist"
 
-# Mode can be either "blacklist" or "whitelist"
-# whitelist mode will only show the commands specified below and hide all others
-# blacklist mode will hide the commands specified below and show all others
-mode: "whitelist"
-
-# List of commands to whitelist/blacklist (depending on the mode set above)
+# List the commands you want to hide (for blacklist mode) or show (for whitelist mode)
 commands:
+  - "ban"
+  - "ban-ip"
+  - "banlist"
+  - "deop"
+  - "kick"
+  - "kill"
   - "op"
+  - "pardon"
+  - "pardon-ip"
+  - "stop"
+  - "whitelist"
+  - "reload"
   - "gamemode"
   - "version"
+  - "op"
 ...
